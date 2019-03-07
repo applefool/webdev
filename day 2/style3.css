@@ -1,0 +1,21 @@
+.border-class {
+  border: 5px double white;
+  width: 400px;
+  padding: 50px 20px;
+  height: 500px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  color: white;
+  background-color: red;
+}
+
+.image-class {
+  width: 150px;
+  height: auto;
+  background-color: red;
+}
+
+body {
+  background-color: red;
+}

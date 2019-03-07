@@ -1,0 +1,13 @@
+h1{color: blue;}
+p{color:orange;}
+h2{color:red;}
+h3 {
+    color:green;
+    animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+  }

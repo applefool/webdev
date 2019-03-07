@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>1-2 Assignment</title>
+    <link href="./style.css" type="text/css" rel="stylesheet">
+</head>
+<script src="./script.js" type="text/javascript" language="javascript"></script>
+
+<body>
+    <div class="partition-left">
+        <img src="./paper.png" class="img-class" onclick="userStart('paper')"> 
+        <img src="./rock.png" class="img-class" onclick="userStart('rock')"> 
+        <img src="./scissor.png" class="img-class" onclick="userStart('scissors')"> 
+
+        <div class="divider"></div>
+        <p>You win <span id="winCount">0</span> time(s)</p>
+        <p>You lose <span id="loseCount">0</span> time(s)</p>
+        <p>You draw <span id="drawCount">0</span> time(s)</p>
+        
+    </div>
+    <div class="partition-right">
+        <h1 class="counter">3</h1>
+        <div id="botImage"><img id="botResult"></div>
+        <h1 id="desc"></h1>
+    </div>
+
+</body>
+<html>

@@ -1,0 +1,20 @@
+.my-class {
+  background-color:orange; 
+  width: 300px; 
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 50px;
+  border:3px solid;
+}
+
+.box-image {
+  background-image: url('https://requestreduce.org/images/gold-keep-calm-and-carry-on-crown-clipart-3.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 400px;
+  height: 500px;
+  padding-top: 60%;
+  border: 3px double white;
+  font-size: 80px;
+  color: white;
+}

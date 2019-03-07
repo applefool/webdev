@@ -1,0 +1,61 @@
+
+html, body {
+  height: 100%;
+  background-color: whitesmoke;
+}
+
+.partition-left {
+  width: 49%;
+  display: inline-block;
+  border-right: 2px solid blue;
+  text-align: center;
+  height: 100%;
+}
+
+.partition-right {
+  width: 49%;
+  display: inline-block;
+  text-align: center;
+  height: 100%;
+  vertical-align: top;
+}
+
+.img-class {
+  width: 120px;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  display: block;
+  border: 1px solid transparent;
+}
+
+.img-class:hover {
+  border: 1px solid red;
+}
+
+.divider {
+  height: 1px;  
+  width: 100%;
+  background-color: grey;
+  margin: 25px 0px;
+}
+
+.counter {
+  font-size: 100px;
+  display: none;
+}
+
+#botImage img {
+  width: 120px;
+  height: 100%;
+}
+
+#botImage {
+  margin-top: 100px;
+  display: none;
+}
+
+#desc {
+  font-size: 80px;
+  display: none;
+}
